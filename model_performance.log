@@ -1,0 +1,7 @@
+INFO:root:Grid Search Best Parameters: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+INFO:root:Cross-Validation Accuracy: 95.83%
+INFO:root:Classification Report: {'0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 10.0}, '1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 9.0}, '2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}}
+INFO:root:Confusion Matrix: [[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
+INFO:root:Model saved as random_forest_iris_model.pkl
